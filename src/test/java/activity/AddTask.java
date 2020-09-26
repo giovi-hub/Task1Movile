@@ -10,6 +10,7 @@ public class AddTask {
     public TextBox notes;
     public Button buttonSave;
 
+    // Add new task
     public AddTask(){
         buttonSave = new Button(By.id("com.vrproductiveapps.whendo:id/saveItem"));
         title = new TextBox(By.id("com.vrproductiveapps.whendo:id/noteTextTitle"));
